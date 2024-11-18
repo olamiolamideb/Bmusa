@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="icon" href="assets/images/favicon-ben.png" sizes="35x35" type="image/png">
+        <title>BAM</title>
+
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <!-- Gradient Color Scheme -->
+        <link rel="stylesheet" href="assets/css/colors/color.css" title="color">
+        <link rel="alternate stylesheet" href="assets/css/colors/color2.css" title="color2"> <!-- Color2 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color3.css" title="color3"> <!-- Color3 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color4.css" title="color4"> <!-- Color4 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color5.css" title="color5"> <!-- Color5 -->
+
+        <!-- Solid Color Scheme -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color6.css" title="color6"> <!-- Color6 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color7.css" title="color7"> <!-- Color7 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color8.css" title="color8"> <!-- Color8 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color9.css" title="color9"> <!-- Color9 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color10.css" title="color10"> <!-- Color10 -->
+    </head>
+    <body>
+        <main>
+            <div class="sidepanel">
+                <span><i class="fas fa-cog fa-spin"></i></span>
+                <div class="color-picker">
+                    <h3>Gradient Colors</h3>
+                    <a class="color applied" onclick="setActiveStyleSheet('color'); return false;"></a>
+                    <a class="color2" onclick="setActiveStyleSheet('color2'); return false;"></a>
+                    <a class="color3" onclick="setActiveStyleSheet('color3'); return false;"></a>
+                    <a class="color4" onclick="setActiveStyleSheet('color4'); return false;"></a>
+                    <a class="color5" onclick="setActiveStyleSheet('color5'); return false;"></a>
+                </div><!-- Color Picker -->
+                <div class="color-picker">
+                    <h3>Solid Colors</h3>
+                    <a class="color6" onclick="setActiveStyleSheet('color6'); return false;"></a>
+                    <a class="color7" onclick="setActiveStyleSheet('color7'); return false;"></a>
+                    <a class="color8" onclick="setActiveStyleSheet('color8'); return false;"></a>
+                    <a class="color9" onclick="setActiveStyleSheet('color9'); return false;"></a>
+                    <a class="color10" onclick="setActiveStyleSheet('color10'); return false;"></a>
+                </div><!-- Color Picker -->
+            </div><!-- Side Panel -->
+            <header class="stick style2 w-100">
+                <div class="topbar w-100">
+                    <div class="container">
+                        <div class="topbar-inner d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="social-links2 d-inline-flex">
+                                <a href="https://www.facebook.com/yourpage" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.youtube.com/yourchannel" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/yourprofile" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="top-links d-inline-flex">
+                                <!-- <a class="login-btn" href="login.html" title=""><i class="thm-clr fas fa-user"></i>login or Register</a> -->
+                                <a class="search-btn" href="javascript:void(0);" title=""><i class="thm-clr fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Topbar -->
+                <div class="menu-wrap">
+                    <div class="container">
+                        <div class="menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
+                            <div class="logo"><h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo-ben.png" alt="Logo" srcset="assets/images/retina-logoben2.png"></a></h1></div><!-- Logo -->
+                            <nav class="d-inline-flex align-items-center">
+                                <div>
+                                    <ul class="mb-0 list-unstyled d-inline-flex">
+                                        <li><a href="index.html" title="">Home</a>
+                                         
+                                        <li><a href="teaching.html" href="javascript:void(0);" title="">Sermon/Teaching</a>
+                                   
+                                        </li>
+                                        <li><a href="mission.html"  href="javascript:void(0);" title="">Mission</a>
+                                      
+                                        </li>
+                                        <li><a href="give.html"  href="javascript:void(0);" title="">Give</a>
+                                
+                                        </li>
+                                        <li><a href="about.html" title="">About us</a></li>
+                                        <li><a href="contact.html" title="">Contact us</a></li>
+                                            <!-- <ul class="children mb-0 list-unstyled">
+                                                <li><a href="contact.html" title="">Contact us 1</a></li>
+                                                <li><a href="contact2.html" title="">Contact us 2</a></li>
+                                            </ul> -->
+                                        </li>
+                                    </ul>
+                                    <!-- <a class="header-btn" href="add-listing.html" title=""><i class="">+</i>Add Listing</a> -->
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div><!-- Menu Wrap -->
+            </header><!-- Header -->
+            <div class="search-wrap w-100 d-flex flex-wrap align-items-center justify-content-center">
+                <span class="search-cls-btn rounded-circle"><i class="fas fa-times"></i></span>
+                <form class="w-100">
+                    <input type="text" placeholder="Search here....">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div><!-- Search Wrap -->
+            <div class="rspn-hdr">
+                <div class="rspn-mdbr">
+                    <div class="rspn-scil">
+                        <a href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="javascript:void(0);" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="javascript:void(0);" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- <form class="rspn-srch">
+                        <input type="text" placeholder="Enter Your Keyword" />
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form> -->
+                </div>
+                <div class="lg-mn">
+                    <div class="logo"><a href="index.html" title="Home"><img src="assets/images/logo-ben 2.png" alt="Logo" srcset="assets/images/logo-ben 2.png"></a></div>
+                    <span class="rspn-mnu-btn"><i class="fa fa-list-ul"></i></span>
+                </div>
+                <div class="rsnp-mnu">
+                    <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
+                    <ul class="mb-0 list-unstyled w-100">
+                        <li class="menu-item-has-children"><li><a href="index.html" title="">Home</a></li>
+                            <ul class="children mb-0 list-unstyled">
+                               
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><li><a href="teaching.html" title="">Sermon/Teaching</a></li>
+                            <ul class="children mb-0 list-unstyled">
+                               
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><li><a href="mission.html" title="">Mission</a></li>
+                      
+                        </li>
+                        <li class="menu-item-has-children"><li><a href="give.html" title="">Give</a></li>
+                    
+                    </li>
+
+                        <li><a href="about.html" title="">About us</a></li>
+                        <li><a href="contact.html" title="">Contact us</a></li>
+                        
+                        </li>
+                    </ul>
+                </div><!-- Responsive Menu -->
+            </div><!-- Responsive Header -->
+            <section>
+                <div class="w-100 pt-180 pb-110 black-layer opc45 position-relative">
+                    <div class="fixed-bg" style="background-image: url(assets/images/sermon-1.jpg);"></div>
+                    <div class="container">
+                        <div class="pg-tp-wrp text-center w-100">
+                            <h1 class="mb-0">Teachings</h1>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
+                                <li class="breadcrumb-item active">Teaching</li>
+                            </ol>
+                        </div><!-- Page Top Wrap -->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="w-100 pt-80 pb-80 gray-bg position-relative">
+                    <div class="container">
+                        <div class="event-detail-wrap w-100">
+                            <div class="event-detail-img-info w-100">
+                                <h2 class="mb-0">STOP CLAPPING FOR THOSE WHO NEEDS DISCIPLINE</h2>
+                                <p class="mb-0">The purpose of discipline is to correct errors in the society or the body of Christ. 
+                                    As Christians your body is the temple of the Holy Spirit.
+                                    2 Timothy 2:3-4 KJV Thou therefore endure hardness, as a good soldier of Jesus Christ 
+                                    [4] No man that warreth entangleth himself with the affairs of this life; that he may please him who hath 
+                                    chosen him to be a soldier.</p>
+                                <img class="img-fluid w-100" src="assets/images/resources/sermon-2-1.png" alt="Event Detail Image">
+                                <ul class="event-infolist d-inline-flex align-items-center mb-0 list-unstyled">
+                                 
+                            </div>
+                            <div class="event-detail-desc w-100">
+                                <p class="mb-0">Discipline is the bedrock of any military institutions. Don't forget we are soldiers of Christ.
+
+                                    1 Corinthians 6:18-20 KJV Flee fornication. Every sin that a man doeth is without the body; but he that committeth fornication 
+                                    sinneth against his own body. [19] What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye 
+                                    have of God, and ye are not your own? [20] For ye are bought with a price: therefore glorify God in your body, and in your spirit, 
+                                    which are God's. You can't impregnate a sister in church and you are leading praise worship in church while the sister is
+                                    sitting at home in shame. Discipline is part of the church from the beginning and it will be there until Christ returns . 
+                                    Unconfessed sins weakens our fellowship. Open rebuke is still part of Christianity. When a brother or a sister do something wrong
+                                     the church should be able to discipline such a one so that others may learn.
+                                    
+                                    1 Corinthians 5:11 KJV But now I have written unto you not to keep company, if any man that is called a brother be a fornicator, or
+                                     covetous, or an idolater, or a railer, or a drunkard, or an extortioner; with such an one no not to eat.
+                                    Any church that discipline is a strong church. Any church where there is no sign of discipline is weak. God discipline those he loves.
+                                    
+                                    Proverbs 3:11-12 KJV My son, despise not the chastening of the Lord ; neither be weary of his correction: 
+                                    [12] For whom the Lord loveth he correcteth; even as a father the son in whom he delighteth. Proverbs 13:24 KJV He that 
+                                    spareth his rod hateth his son: but he that loveth him chasteneth him betimes.
+                                    
+                                    Hebrews 12:5-11 KJV And ye have forgotten the exhortation which speaketh unto you as unto children,
+                                     My son, despise not thou the chastening of the Lord, nor faint when thou art rebuked of him: [6] For whom 
+                                     the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. [7] If ye endure chastening, God dealeth
+                                      with you as with sons; for what son is he whom the father chasteneth not? [8] But if ye be without chastisement,
+                                       whereof all are partakers, then are ye bastards, and not sons. [9] Furthermore we have had fathers of our flesh 
+                                       which corrected us, and we gave them reverence: shall we not much rather be in subjection unto the Father of spirits, and live? [10] 
+                                       For they verily for a few days chastened us after their own pleasure; but he for our profit, that we might be partakers of his holiness. 
+                                       [11] Now no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of
+                                       righteousness unto them which are exercised thereby."</p>
+                                <h3 class="mb-0">Summary</h3>
+                                <ul class="mb-0 list-unstyled w-100">
+                                    <li>Purpose of Discipline in Society and the Church</li>
+                                    <li>Enduring Hardship as Soldiers of Christ</li>
+                                    <li>The Body as the Temple of the Holy Spirit</li>
+                                    <li>Church Discipline and Unconfessed Sins</li>
+                                    <li>God's Discipline as an Act of Love.</li>
+                                    <li>Endurance and Benefits of Divine Chastening</li>
+                                </ul>
+                                <div class="share w-100">
+                                    <span>Share</span>
+                                    <div class="social-links3">
+                                        <a class="facebook rounded-circle" href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="twitter rounded-circle" href="javascript:void(0);" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <!-- <a class="vimeo rounded-circle" href="javascript:void(0);" title="Vimeo" target="_blank"><i class="fab fa-vimeo-v"></i></a> -->
+                                        <a class="youtube rounded-circle" href="javascript:void(0);" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                                        <!-- <a class="pinterest rounded-circle" href="javascript:void(0);" title="Pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Event Detail Wrap -->
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="w-100 pt-140 pb-100 position-relative">
+                  <div class="container">
+                    <div class="sec-title text-center w-100">
+                      <span class="d-block thm-clr">listen to</span>
+                      <h3 class="mb-0">MP3 sermon</h3>
+                    </div>
+                    <!-- Sec Title -->
+                    <div class="blog-wrap res-row w-100">
+                      <div class="row">
+                        <div class="col-md-6 col-sm-6 col-lg-4">
+                          <div class="blog-post-box w-100">
+                            <div class="blog-post-img overflow-hidden w-100">
+                              <a href="javascript:void(0);" title=""
+                                ><img
+                                  class="img-fluid w-100"
+                                  src="assets/images/resources/semorn-1.jpg"
+                                  alt="Blog Image 4"
+                              /></a>
+                            </div>
+                            <div class="blog-post-info bg-white w-100">
+                              <span class="post-date d-inline-block">Audio</span>
+                              <h3 class="mb-0">
+                                <a href="javascript:void(0);" title=""
+                                  >By Faith</a
+                                >
+                              </h3>
+                              <p class="mb-0">
+                                Qui nunc nobis videntur parum clari, sollemnes in
+                                futurum putamus parum claram legere.
+                              </p>
+                              <span class="post-auth d-inline-block"
+                                >Teaching by
+                                <a href="javascript:void(0);" title=""
+                                  >Rev Ben Musa</a
+                                ></span
+                              >
+                              <span class="post-coment thm-bg position-absolute"
+                                ><i class="far fa-comment-dots"></i>03</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-4">
+                          <div class="blog-post-box w-100">
+                            <div class="blog-post-img overflow-hidden w-100"
+                                ><img
+                                class="img-fluid w-100"
+                                src="assets/images/resources/sermon-3.jpg"
+                                alt="Blog Image 4"
+                            /></a>
+                              <!-- <iframe
+                              
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/867623335&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                              ></iframe> -->
+                            </div>
+                            <div class="blog-post-info bg-white w-100">
+                              <span class="post-date d-inline-block">Audio</span>
+                              <h3 class="mb-0">
+                                <a href="javascript:void(0);" title=""
+                                  >No more Delay</a
+                                >
+                              </h3>
+                              <p class="mb-0">
+                                Qui nunc nobis videntur parum clari, sollemnes in
+                                futurum putamus parum claram legere.
+                              </p>
+                              <span class="post-auth d-inline-block"
+                                >Teaching by
+                                <a href="javascript:void(0);" title=""
+                                  >Rev Ben Musa</a
+                                ></span
+                              >
+                              <span class="post-coment thm-bg position-absolute"
+                                ><i class="far fa-comment-dots"></i>03</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-4">
+                          <div class="blog-post-box w-100">
+                            <div class="blog-post-img overflow-hidden w-100">
+                              <a href="javascript:void(0);" title=""
+                                ><img
+                                  class="img-fluid w-100"
+                                  src="assets/images/resources/sermon-4.jpg"
+                                  alt="Blog Image 5"
+                              /></a>
+                            </div>
+                            <div class="blog-post-info bg-white w-100">
+                              <span class="post-date d-inline-block">Audio</span>
+                              <h3 class="mb-0">
+                                <a href="javascript:void(0);" title=""
+                                  >I hear the sound of Rain</a
+                                >
+                              </h3>
+                              <p class="mb-0">
+                                Qui nunc nobis videntur parum clari, sollemnes in
+                                futurum putamus parum claram legere.
+                              </p>
+                              <span class="post-auth d-inline-block"
+                                >Teaching by
+                                <a href="javascript:void(0);" title=""
+                                  >Rev Ben Musa</a
+                                ></span
+                              >
+                              <span class="post-coment thm-bg position-absolute"
+                                ><i class="far fa-comment-dots"></i>03</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Blog Wrap -->
+                  </div>
+                </div>
+              </section>
+
+            <footer>
+                <div class="w-100 dark-layer5 opc85 position-relative">
+                    <div class="fixed-bg dark-bg4 back-post-cntrbtm" style="background-image: url(assets/images/footer-ben.jpg);"></div>
+                    <div class="footer-links-wrap text-center w-100">
+                        <ul class="footer-links mb-0 d-flex flex-wrap justify-content-center list-unstyled w-100">
+                            <li><a href="javascript:void(0);" title="">About</a></li>
+                            <li><a href="javascript:void(0);" title="">Sermon/Teaching</li>
+                            <li><a href="javascript:void(0);" title="">Mission</a></li>
+                            <li><a href="javascript:void(0);" title="">Partner With Us</a></li>
+                            <li><a href="javascript:void(0);" title="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-about-wrap text-center w-100">
+                        <div class="footer-about-inner d-inline-block">
+                            <div class="logo"><h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo-ben.png" alt="Logo" srcset="assets/images/logo-ben.png"></a></h1></div>
+                            <p class="mb-0">SAY THESE WORDS: <br>Today I confess Jesus, as my Lord and Saviour. I believe He came to the earth, I believe He died, and I believe,
+                                 that on the 3rd day, He was raised from the dead. Everything Jesus did, by His death, burial and resurrection, 
+                                I receive into my human spirit. I receive the gift of eternal life. I am Born Again. Thank You Jesus. Hallelujah!</p>
+                            <div class="footer-cont-info">
+                                <ul class="mb-0 list-unstyled d-inline-flex">
+                                    <li><i class="rounded thm-bg fas fa-phone"></i>Phone: +2348092929296</li>
+                                    <li><i class="rounded thm-bg fas fa-envelope"></i>Email: <a href="javascript:void(0);" title="">Benaudumusa@gmail.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="asocial-links d-inline-block">
+                                <a class="rounded-circle" href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="rounded-circle" href="javascript:void(0);" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a class="rounded-circle" href="javascript:void(0);" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div><!-- Footer About Wrap -->
+                    <div class="copyright2 text-center w-100">
+                        <p class="mb-0">&copy; 2024 <a href="index.html" title="Home" target="_blank">Pastor Ben Musa</a> Copyright 2024 © All rights Reserved <a href="javascript:void(0);" title="" target="_blank">Teachard</a></p>
+                    </div><!-- Copyright 2 -->
+                </div>
+            </footer><!-- Footer -->
+        </main><!-- Main Wrapper -->
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-select.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/downCount.js"></script>
+        <script src="assets/js/counterup.min.js"></script>
+        <script src="assets/js/scroll-up-bar.min.js"></script>
+        <script src="assets/js/jquery.fancybox.min.js"></script>
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/perfect-scrollbar.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/circle-progress.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="assets/js/styleswitcher.js"></script>
+        <script src="assets/js/custom-scripts.js"></script>
+    </body>	
+</html>

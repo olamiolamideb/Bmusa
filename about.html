@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="icon" href="assets/images/favicon-ben.png" sizes="35x35" type="image/png">
+        <title>BAM</title>
+
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Gradient Color Scheme -->
+        <link rel="stylesheet" href="assets/css/colors/color.css" title="color">
+        <link rel="alternate stylesheet" href="assets/css/colors/color2.css" title="color2"> <!-- Color2 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color3.css" title="color3"> <!-- Color3 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color4.css" title="color4"> <!-- Color4 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color5.css" title="color5"> <!-- Color5 -->
+
+        <!-- Solid Color Scheme -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color6.css" title="color6"> <!-- Color6 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color7.css" title="color7"> <!-- Color7 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color8.css" title="color8"> <!-- Color8 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color9.css" title="color9"> <!-- Color9 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color10.css" title="color10"> <!-- Color10 -->
+    </head>
+    <body>
+        <main>
+            <div class="sidepanel">
+                <span><i class="fas fa-cog fa-spin"></i></span>
+                <div class="color-picker">
+                    <h3>Gradient Colors</h3>
+                    <a class="color applied" onclick="setActiveStyleSheet('color'); return false;"></a>
+                    <a class="color2" onclick="setActiveStyleSheet('color2'); return false;"></a>
+                    <a class="color3" onclick="setActiveStyleSheet('color3'); return false;"></a>
+                    <a class="color4" onclick="setActiveStyleSheet('color4'); return false;"></a>
+                    <a class="color5" onclick="setActiveStyleSheet('color5'); return false;"></a>
+                </div><!-- Color Picker -->
+                <div class="color-picker">
+                    <h3>Solid Colors</h3>
+                    <a class="color6" onclick="setActiveStyleSheet('color6'); return false;"></a>
+                    <a class="color7" onclick="setActiveStyleSheet('color7'); return false;"></a>
+                    <a class="color8" onclick="setActiveStyleSheet('color8'); return false;"></a>
+                    <a class="color9" onclick="setActiveStyleSheet('color9'); return false;"></a>
+                    <a class="color10" onclick="setActiveStyleSheet('color10'); return false;"></a>
+                </div><!-- Color Picker -->
+            </div><!-- Side Panel -->
+            <header class="stick style2 w-100">
+                <div class="topbar w-100">
+                    <div class="container">
+                        <div class="topbar-inner d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="social-links2 d-inline-flex">
+                                <a href="https://www.facebook.com/yourpage" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.youtube.com/yourchannel" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/yourprofile" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="top-links d-inline-flex">
+                                <!-- <a class="login-btn" href="login.html" title=""><i class="thm-clr fas fa-user"></i>login or Register</a> -->
+                                <a class="search-btn" href="javascript:void(0);" title=""><i class="thm-clr fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Topbar -->
+                <div class="menu-wrap">
+                    <div class="container">
+                        <div class="menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
+                            <div class="logo"><h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo-ben.png" alt="Logo" srcset="assets/images/retina-logoben2.png"></a></h1></div><!-- Logo -->
+                            <nav class="d-inline-flex align-items-center">
+                                <div>
+                                    <ul class="mb-0 list-unstyled d-inline-flex">
+                                        <li><a href="index.html" title="">Home</a>
+                                         
+                                        <li><a href="teaching.html" href="javascript:void(0);" title="">Sermon/Teaching</a>
+                                         
+                                        </li>
+                                        <li><a href="mission.html"  href="javascript:void(0);" title="">Mission</a>
+                                          
+                                        </li>
+                                        <li><a href="give.html"  href="javascript:void(0);" title="">Give</a>
+                              
+                                        </li>
+                                        <li><a href="about.html" title="">About us</a></li>
+                                        <li><a href="contact.html" title="">Contact us</a></li>
+                                    
+                                        </li>
+                                    </ul>
+                                    <!-- <a class="header-btn" href="add-listing.html" title=""><i class="">+</i>Add Listing</a> -->
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div><!-- Menu Wrap -->
+            </header><!-- Header -->
+            <div class="search-wrap w-100 d-flex flex-wrap align-items-center justify-content-center">
+                <span class="search-cls-btn rounded-circle"><i class="fas fa-times"></i></span>
+                <form class="w-100">
+                    <input type="text" placeholder="Search here....">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div><!-- Search Wrap -->
+            <div class="rspn-hdr">
+                <div class="rspn-mdbr">
+                    <div class="rspn-scil">
+                        <a href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="javascript:void(0);" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="javascript:void(0);" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- <form class="rspn-srch">
+                        <input type="text" placeholder="Enter Your Keyword" />
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form> -->
+                </div>
+                <div class="lg-mn">
+                    <div class="logo"><a href="index.html" title="Home"><img src="assets/images/logo-ben 2.png" alt="Logo" srcset="assets/images/logo-ben 2.png"></a></div>
+                    <span class="rspn-mnu-btn"><i class="fa fa-list-ul"></i></span>
+                </div>
+                <div class="rsnp-mnu">
+                    <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
+                    <ul class="mb-0 list-unstyled w-100">
+                        <li class="menu-item-has-children"><li><a href="index.html" title="">Home</a></li>
+                            <ul class="children mb-0 list-unstyled">
+                              
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><li><a href="teaching.html" title="">Sermon/Teaching</a></li>
+                            <ul class="children mb-0 list-unstyled">
+                               
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><li><a href="mission.html" title="">Mission</a></li>
+                       
+                        </li>
+                        <li class="menu-item-has-children"><li><a href="give.html" title="">Give</a></li>
+                   
+                    </li>
+
+                        <li><a href="about.html" title="">About us</a></li>
+                        <li><a href="contact.html" title="">Contact us</a></li>
+                          
+                        </li>
+                    </ul>
+                </div><!-- Responsive Menu -->
+            </div><!-- Responsive Header -->
+            <section>
+                <div class="w-100 pt-180 pb-110 black-layer opc45 position-relative">
+                    <div class="fixed-bg" style="background-image: url(assets/images/about-us1.png);"></div>
+                    <div class="container">
+                        <div class="pg-tp-wrp text-center w-100">
+                            <h1 class="mb-0">About us</h1>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
+                                <li class="breadcrumb-item active">About us</li>
+                            </ol>
+                        </div><!-- Page Top Wrap -->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="w-100 pt-140 pb-140 gray-bg position-relative">
+                    <div class="container">
+                        <div class="about-wrap w-100">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <img class="img-fluid w-100" src="assets/images/resources/about-us22.png" alt="About Image 1">
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <div class="about-desc w-100">
+                                        <h2 class="mb-0">About Me</h2>
+                                        <h4 class="mb-0"> <br>Early Life and Education </h4>
+                                        <p class="mb-0">
+                                             Pastor Benjamin Audu Musa was born on the 8th of March, 1974, in Kogi State, 
+                                            Nigeria. Raised in northern Nigeria, he developed a strong foundation in faith 
+                                            and education. He pursued higher education at Usmanu Danfodiyo University, 
+                                            where he earned a Master's degree in Peace and Security Studies and a Postgraduate 
+                                            Diploma in Public Administration. In addition, he has multiple Postgraduate Diplomas
+                                             in Christian Leadership. He was awarded an honorary Doctorate of Divinity 
+                                             from Yeshua International School of Theology, London. 
+                                             <h5 class="mb-0"> <br> Ministry and Work</h5>
+                                        <p class="mb-0">Benjamin Audu Musa is an ordained minister of the gospel with Word Integrity Ministries, 
+                                            Christ House Church, Sokoto. He was ordained as a pastor on the 5th of December, 2000. Known for his 
+                                            strong prophetic teaching grace, Ben Musa's ministry is characterized by signs and wonders. He is a
+                                             passionate advocate of Kingdom-based prayers and has dedicated his life to missionary work. He currently 
+                                             serves as the regional pastor of the ministry, overseeing various church activities and outreach programs.
+                                            In addition to his pastoral duties, Ben Musa hosts the radio program Rhema Power Network. 
+                                            This program broadcasts in both Hausa and English, reaching a diverse audience in Sokoto and 
+                                            Kebbi States. His teachings and messages have impacted many lives, fostering spiritual growth 
+                                            and development in the region.
+                                            </p>
+
+                                            <h5 class="mb-0"> <br> Personal Life</h5>
+                                            <p class="mb-0">
+                                                Benjamin Audu Musa is married to Pastor Bentonia Ene Audu, who is also a 
+                                                dedicated servant in the ministry. Together, they work tirelessly in the vineyard, 
+                                                upporting and uplifting their congregation. Their union is blessed with five biological
+                                                 children, and they have also opened their hearts and home to adopted children, embodying 
+                                                 the true spirit of Christian love and generosity.
+                                                </p>
+                                                <h5 class="mb-0"><br>Leadership Roles</h5>
+                                                <p class="mb-0">
+                                                    Dr. Ben Musa holds significant leadership positions within the Christian community. 
+                                                He is the current State Chairman of the Pentecostal Fellowship of Nigeria, Sokoto, 
+                                                and serves as the regional secretary of the same organization. His leadership and guidance 
+                                                have been instrumental in uniting and strengthening the Pentecostal community in the region.
+                                                 In addition to these roles, he is involved in various responsibilities and initiatives aimed 
+                                                 at promoting the body of Christ.
+                                                    </p>
+                                               
+                                        <a class="thm-btn" href="" title="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- About Wrap -->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="w-100 pt-140 pb-110 position-relative">
+                    <div class="container">
+                        <div class="sec-title text-center w-100">
+                            <span class="d-block thm-clr">We are closer than You think</span>
+                            <h2 class="mb-0">Connect with us online</h2>
+                        </div><!-- Sec Title -->
+                        <div class="how-work-wrap res-row text-center w-100">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="how-work-box v2 w-100">
+                                        <span  class="rounded-circle d-inline-block">
+                                            <a href="https://www.youtube.com/your-channel-link" target="_blank">
+                                            <img class="img-fluid" src="assets/images/resources/you-tube1.png" alt="How It Works Icon 1"></a></span>
+                                        <div class="how-work-inner w-100">
+                                            <h3 class="mb-0">Youtube Channel</h3>
+                                            <p class="mb-0">Don't Miss a service. Subscribe to our youtube channel to get notifications of our programs </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="how-work-box v2 w-100">
+                                        <span class="rounded-circle d-inline-block">
+                                            <a href="https://www.facebook.com/your-page-link" target="_blank">
+                                                <img class="img-fluid" src="assets/images/resources/face-book1.png" alt="How It Works Icon 2"></a></span>
+                                        <div class="how-work-inner w-100">
+                                            <h3 class="mb-0">Facebook</h3>
+                                            <p class="mb-0">Join our Facebook community.Get updates and Watch facebook stream with any device.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="how-work-box v2 w-100">
+                                        <span class="rounded-circle d-inline-block">
+                                            <a href="https://www.tiktok.com/@your-account-link" target="_blank">
+                                            <img class="img-fluid" src="assets/images/resources/tik-tok1.png" alt="How It Works Icon 3"></a></span>
+                                        <div class="how-work-inner w-100">
+                                            <h3  class="mb-0">Tiktok</h3>
+                                            <p class="mb-0">Join our TikTok community to get updates and sermon recap.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Services Wrap -->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="w-100 pt-180 pb-180 dark-layer2 opc65 position-relative">
+                    <div class="fixed-bg" style="background-image: url(assets/images/about-us3.jpg);"></div>
+                    <div class="container">
+                        <div class="video-wrap text-center w-100">
+                            <div class="video-inner d-inline-block">
+                                <a class="d-inline-block" href="https://www.youtube.com/watch?v=oxFGWjcb3Ew&t=7s" data-fancybox title=""><i class="fas fa-play"></i></a>
+                                <h2 class="mb-0">Stay Connected</h2>
+                                <!-- <p class="mb-0">Keep calm and get a special discount for all orders over $50 from The Naturel Coffee. Hurry up! Only 3 days left.</p> -->
+                                <a class="thm-btn" href="javascript:void(0);" title="">Play</a>
+                            </div>
+                        </div><!-- Video Wrap -->
+                    </div>
+                </div>
+            </section>
+           
+            <section>
+                <div class="w-100 pt-140 pb-140 position-relative">
+                    <div class="container">                        
+                        <div class="sec-title text-center w-100">
+                            <span class="d-block thm-clr">Highlight</span>
+                            <h3 class="mb-0">Gallery</h3>
+                        </div>
+                        <div class="insta-wrap w-100">
+                            <div class="row mrg5 justify-content-center">
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img1.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img1.jpg" alt="Instagram Image 1"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img2.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img2.jpg" alt="Instagram Image 2"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img7.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img7.jpg" alt="Instagram Image 3"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img4.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img4.jpg" alt="Instagram Image 4"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img11.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img11.jpg" alt="Instagram Image 5"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img8.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img8.jpg" alt="Instagram Image 6"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img3.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img3.jpg" alt="Instagram Image 7"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-lg-3">
+                                    <div class="insta-box w-100">
+                                        <a href="assets/images/resources/g-img10.jpg" data-fancybox="gallerry" title=""><img class="img-fluid w-100" src="assets/images/resources/g-img10.jpg" alt="Instagram Image 8"></a>
+                                    </div> 
+                                 </div>
+                            </div> 
+                         </div><!-- Instagram Wrap -> -->
+                    </div>
+                </div>
+            </section> 
+
+
+
+            <!-- <section>
+                <div class="w-100 pb-120 position-relative">
+                    <div class="container">
+                        <ul class="clients-list text-center mb-0 list-unstyled d-flex flex-wrap">
+                            <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img1.png" alt="Client Image 1"></a></li>
+                            <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img2.png" alt="Client Image 2"></a></li>
+                            <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img3.png" alt="Client Image 3"></a></li>
+                            <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img4.png" alt="Client Image 4"></a></li>
+                            <li><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img5.png" alt="Client Image 5"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section> -->
+            <section>
+                <div class="w-100 pt-130 dark-layer2 pb-100 opc1 position-relative">
+                    <div class="fixed-bg" style="background-image: url(assets/images/testimoni-1.jpg);"></div>
+                    <div class="container">
+                        <div class="about-toggle-wrap w-100">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <img class="img-fluid w-100" src="assets/images/resources/testimoni-2-2.png" alt="About Image 3">
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <div class="toggle w-100" id="toggle">
+                                        <div class="toggle-item w-100">
+                                            <h4 class="mb-0">Testimony<i class=""></i></h4>
+                                            <div class="toggle-content w-100"><p class="mb-0">
+                                                Mrs Tomisin Ehinmowo. From Abuja <br>
+                                                In August 2022, I experienced a miscarriage after being told 
+                                                my pregnancy was an empty sac. I reached out to Pastor Ben Musa, 
+                                                who decreed restoration over my life. By the following month,
+                                                 I found out I was pregnant again, even though I wasn’t ovulating at that 
+                                                 time. This time, my pregnancy journey was smooth, and on July 16, 2023,
+                                                  I safely delivered my baby after less than 3 hours of active labor. Glory to God!. 
+                                     </p></div>
+                                        </div>
+                                        <div class="toggle-item w-100">
+                                            <h4 class="mb-0">Testimony<i class=""></i></h4>
+                                            <div class="toggle-content w-100"><p class="mb-0">Praise the Lord, church! I give all glory to God for 
+                                                His blessings upon my family. After fifteen years of prayer, God has blessed us with a beautiful baby girl. 
+                                                I also thank Reverend Dr. Ben Audu Musa and the entire church for their prayers and support. Praise be to God
+                                                El. Ibrahim Is. </p></div>
+                                        </div>
+                                        <div class="toggle-item w-100">
+                                            <h4 class="mb-0">Testimony<i class=""></i></h4>
+                                            <div class="toggle-content w-100"><p class="mb-0"> I had been unwell all week and struggled at work. During the Wednesday online service, 
+                                                I joined the communion with bread and soda, as I didn't have the elements. After Pastor prayed over them, I took it with faith. 
+                                                The next day, I was completely fine! I'm here to give all praise to Jehovah for this miracle</p></div>
+                                        </div>
+                                        <div class="toggle-item w-100">
+                                            <h4 class="mb-0">Testimony<i class=""></i></h4>
+                                            <div class="toggle-content w-100"><p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid beatae delectus distinctio </p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- About Toggle Wrap -->
+                    </div>
+                </div>
+            </section>
+            <!-- <section>
+                <div class="w-100 pt-140 pb-110 position-relative">
+                    <div class="container">
+                        <ul class="clients-wrap d-flex flex-wrap mb-0 list-unstyled w-100">
+                            <div class="client-item"><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img2-1.png" alt="Client Image 1"></a></div>
+                            <div class="client-item"><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img2-2.png" alt="Client Image 2"></a></div>
+                            <div class="client-item"><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img2-3.png" alt="Client Image 3"></a></div>
+                            <div class="client-item"><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img2-4.png" alt="Client Image 4"></a></div>
+                            <div class="client-item"><a href="javascript:void(0);" title=""><img class="img-fluid" src="assets/images/resources/client-img2-5.png" alt="Client Image 5"></a></div>
+                        </ul><!- Clients Wrap --
+                    </div>
+                </div>
+            </section> -->
+            <footer>
+                <div class="w-100 dark-layer5 opc85 position-relative">
+                    <div class="fixed-bg dark-bg4 back-post-cntrbtm" style="background-image: url(assets/images/footer-ben.jpg);"></div>
+                    <div class="footer-links-wrap text-center w-100">
+                        <ul class="footer-links mb-0 d-flex flex-wrap justify-content-center list-unstyled w-100">
+                            <li><a href="javascript:void(0);" title="">About</a></li>
+                            <li><a href="javascript:void(0);" title="">Sermon/Teaching</li>
+                            <li><a href="javascript:void(0);" title="">Mission</a></li>
+                            <li><a href="javascript:void(0);" title="">Partner With Us</a></li>
+                            <li><a href="javascript:void(0);" title="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-about-wrap text-center w-100">
+                        <div class="footer-about-inner d-inline-block">
+                            <div class="logo"><h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo-ben.png" alt="Logo" srcset="assets/images/logo-ben.png"></a></h1></div>
+                            <p class="mb-0">SAY THESE WORDS: <br>Today I confess Jesus, as my Lord and Saviour. I believe He came to the earth, I believe He died, and I believe,
+                                 that on the 3rd day, He was raised from the dead. Everything Jesus did, by His death, burial and resurrection, 
+                                I receive into my human spirit. I receive the gift of eternal life. I am Born Again. Thank You Jesus. Hallelujah!</p>
+                            <div class="footer-cont-info">
+                                <ul class="mb-0 list-unstyled d-inline-flex">
+                                    <li><i class="rounded thm-bg fas fa-phone"></i>Phone: +2348092929296</li>
+                                    <li><i class="rounded thm-bg fas fa-envelope"></i>Email: <a href="javascript:void(0);" title="">Benaudumusa@gmail.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="asocial-links d-inline-block">
+                                <a class="rounded-circle" href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="rounded-circle" href="javascript:void(0);" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a class="rounded-circle" href="javascript:void(0);" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div><!-- Footer About Wrap -->
+                    <div class="copyright2 text-center w-100">
+                        <p class="mb-0">&copy; 2024 <a href="index.html" title="Home" target="_blank">Pastor Ben Musa</a> Copyright 2024 © All rights Reserved <a href="javascript:void(0);" title="" target="_blank">Teachard</a></p>
+                    </div><!-- Copyright 2 -->
+                </div>
+            </footer><!-- Footer -->
+        </main><!-- Main Wrapper -->
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-select.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/downCount.js"></script>
+        <script src="assets/js/counterup.min.js"></script>
+        <script src="assets/js/scroll-up-bar.min.js"></script>
+        <script src="assets/js/jquery.fancybox.min.js"></script>
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/perfect-scrollbar.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/circle-progress.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="assets/js/styleswitcher.js"></script>
+        <script src="assets/js/custom-scripts.js"></script>
+    </body>	
+</html>
